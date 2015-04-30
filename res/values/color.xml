@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 主色调 -->
+    <color name="soft_gray">#f1f1f1</color>
+    <color name="deep_gray">#bdbbbb</color>
+    <color name="text_white">#c9c9cb</color>
+    <color name="common_head_bg_color">#fbc642</color>
+    <color name="common_bg_gray_color">#f1f1f1</color>
+    <color name="text_deep_orange">#cf572d</color>
+    <color name="text_gray">#a3a3a3</color>
+    <color name="text_red">#ef5f64</color>
+    <color name="tab_checked_textcolor">#ee8100</color>
+
+    <!-- 其他 -->
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0091a8</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#f39c11</color>
+    <color name="pink">#FF00FF</color>
+    <color name="transparent">#00000000</color>
+
+</resources>

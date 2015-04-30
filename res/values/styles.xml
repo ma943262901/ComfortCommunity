@@ -1,0 +1,86 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="main_tab_bottom">
+        <item name="android:textSize">10sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:paddingTop">3dip</item>
+        <item name="android:drawablePadding">5dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:button">@null</item>
+        <item name="android:layout_weight">1.0</item>
+        <!-- <item name="android:background">@drawable/main_view_color</item> -->
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="text_normal_style">
+        <item name="android:textSize">@dimen/text_normal</item>
+        <item name="android:textColor">@color/text_gray</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="sign_text_style">
+        <item name="android:textSize">@dimen/text_normal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_gray</item>
+        <item name="android:drawableLeft">@drawable/text_sign_icon</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="seekBarMyStyle" parent="android:style/Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/seekbar_bg </item>
+        <item name="android:maxHeight">5dip</item>
+        <item name="android:minHeight">5dip</item>
+        <item name="android:thumb">@drawable/thumb_selector</item>
+    </style>
+
+    <!-- <ToggleButton -->
+    <!-- android:id="@+id/win" -->
+    <!-- android:layout_width="0dip" -->
+    <!-- android:layout_height="match_parent" -->
+    <!-- android:layout_marginBottom="1dip" -->
+    <!-- android:layout_marginLeft="1dip" -->
+    <!-- android:layout_marginTop="1dip" -->
+    <!-- android:layout_weight="1" -->
+    <!-- android:background="@drawable/recomend_bg_selector" -->
+    <!-- android:button="@null" -->
+    <!-- android:gravity="center" -->
+    <!-- android:paddingBottom="12dip" -->
+    <!-- android:paddingTop="12dip" -->
+    <!-- android:textColor="@drawable/recomend_textcolor_selector" -->
+    <!-- android:textOff="" -->
+    <!-- android:textOn="" -->
+    <!-- android:textSize="@dimen/main_textsize" /> -->
+
+    <style name="ToggleButton_style">
+        <item name="android:textSize">@dimen/text_normal</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/text_gray</item>
+        <item name="android:textOff"></item>
+        <item name="android:textOn"></item>
+        <item name="android:background">@drawable/togglebutton_bg_selector</item>
+    </style>
+
+</resources>

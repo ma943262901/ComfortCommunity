@@ -1,0 +1,45 @@
+<resources>
+
+    <string name="app_name">舒社区</string>
+
+    <!-- 导航栏目 -->
+    <string name="tab_home">首页</string>
+    <string name="tab_order">订单</string>
+    <string name="tab_member">生活</string>
+    <string name="tab_user">个人</string>
+    <string name="clean_normal">日常保洁</string>
+    <string name="clean_normal_text">适用于家庭日常清洁服务。\n家电深度清洁</string>
+    <string name="clean_deep">深度保洁</string>
+    <string name="clean_deep_text">适用于较长时间未打扫的房屋等。\n积累久的污垢，油污全部</string>
+    <string name="hourly_employee_long">长期钟点工</string>
+    <string name="hourly_employee_long_text">保洁和做饭服务</string>
+    <string name="baby_sitter">住家保姆</string>
+    <string name="moon_baby_sitter">月嫂</string>
+    <string name="takecare_baby_sitter">育儿嫂</string>
+    <string name="moon_baby_sitter_text">产妇月子服务</string>
+    <string name="check_address">请选择服务地点</string>
+    <string name="check_time">请选择服务时间段</string>
+    <string name="fill_in_address">请填写服务地点</string>
+    <string name="fill_in_time">请填写服务时间段</string>
+    <string name="fill_in_phone_num">请填写您的电话</string>
+    <string name="take_care_old">看护老人</string>
+    <string name="half_greens">半成品菜</string>
+    <string name="organic_fruit">有机水果</string>
+    <string name="expressage">快递</string>
+    <string name="freight">货运</string>
+    <string name="remove">搬家</string>
+    <string name="medical_examination_report">体检报告</string>
+    <string name="order_doc">预约中医</string>
+    <string name="psychological_consulting">心理咨询</string>
+    <string name="clean_long_clean">保洁</string>
+    <string name="clean_long_make_food">烧饭</string>
+    <string name="house_area">房屋面积</string>
+    <string name="serve_freqency">服务频率</string>
+    <string name="start_time">开始时间</string>
+    <string name="start_time_check">请选择开始时间</string>
+    <string name="end_time">结束时间</string>
+    <string name="end_time_check">请选择结束时间</string>
+    <string name="price_accept">心理价位</string>
+    <string name="is_have_pet">是否有宠物</string>
+
+</resources>
